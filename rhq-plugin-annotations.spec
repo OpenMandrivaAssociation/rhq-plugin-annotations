@@ -1,9 +1,9 @@
 %{?_javapackages_macros:%_javapackages_macros}
 Name:             rhq-plugin-annotations
 Version:          3.0.4
-Release:          6.0%{?dist}
+Release:          8.1
 Summary:          RHQ plugin annotations
-
+Group:            Development/Java
 License:          GPL and LGPLv2+
 URL:              http://rhq-project.org
 
@@ -64,7 +64,7 @@ cp -rp target/site/apidocs/* $RPM_BUILD_ROOT%{_javadocdir}/%{name}
 
 %files
 %{_mavenpomdir}/*
-%{_mavendepmapfragdir}/*
+%{_datadir}/maven-metadata/*
 %{_javadir}/*
 
 %files javadoc
