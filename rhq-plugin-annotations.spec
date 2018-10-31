@@ -1,7 +1,7 @@
 %{?_javapackages_macros:%_javapackages_macros}
 Name:             rhq-plugin-annotations
 Version:          3.0.4
-Release:          8.2
+Release:          8.3
 Summary:          RHQ plugin annotations
 Group:            Development/Java
 License:          GPL and LGPLv2+
