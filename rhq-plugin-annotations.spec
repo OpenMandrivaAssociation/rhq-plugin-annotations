@@ -5,7 +5,7 @@ Release:          8.3
 Summary:          RHQ plugin annotations
 Group:            Development/Java
 License:          GPL and LGPLv2+
-URL:              http://rhq-project.org
+URL:              https://rhq-project.org
 
 # git clone git://git.fedorahosted.org/rhq/rhq.git
 # git checkout rhq-pluginGen-3.0.4
